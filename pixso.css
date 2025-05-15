@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+#boss{
+   height: 655px;
+   background-image: url(assets/hero-bg.png);
+   background-size: cover;
+   background-position: center;
+   justify-content: center;
+   align-items: center;
+   display: flex; 
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#boss .pen1 .pen2{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+}
+#boss .pen1 .pen3{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 34px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+}
+#boss .pen1 .pen4{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 8px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.btn{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+border-radius: 8px;
+background: rgb(82, 195, 3);
+cursor: pointer;
+padding: 10px 12px 10px 12px;
+}
+.all-click{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#boss .pen1{
+    width: 635px;
+}
+/* new code */
+#container{
+    width: 884px;
+    margin: 100px auto;
+}
+#container .paragr{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+#container .heading{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.box-image1{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.box-image1 .image{
+    width: 250px;
+}
+.box-image1 .image img{
+    width: 100%;
+}
+.box-image{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Work Sans;
+}
+.box-image1 .shop{
+padding: 14px 32px 14px 32px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgba(82, 195, 3, 0.15);
+}
+.box-image1 .heading2{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+}
+.box-image1 .para2{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
