@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+#parrent{
+    height: 655px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(0deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%), url(../assets/hero-bg.png);
+    
+}
+#parrent .parrent2{
+    width: 635px;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#parrent .parrent2 .child1{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 0%;
+}
+#parrent .parrent2 .child2{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+#parrent .parrent2 .child3{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 8px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+}
+.btn{
+padding: 10px 12px 10px 12px;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+border-radius: 8px;
+background: rgb(82, 195, 3);
+cursor: pointer;
+}
+.btn-container{
+    text-align: center;
+}
+#card-box{
+    width: 884px;
+    margin: 100px auto;
+}
+#card-box .paragr{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+#card-box .title{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Work Sans;
+}
+.card .shop{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 10px 16px 10px 16px;
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 250px;
+}
+.card .image-box img{
+    width: 100%;
+}
